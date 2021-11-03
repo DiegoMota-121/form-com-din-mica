@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<title>Escola De Profissional</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div id="cabeçalho">
+		<div id="menu">	
+			<ul>
+				<li><a href="">Inicio</a></li>
+				<li>
+					<a href="">Professor</a>
+					<ul class="submenu">
+						<li><a href="#">Alunos</a></li>
+						<li><a href="#">Cursos</a></li>
+						<li><a href="#">Adicionar notas</a></li>
+						<li><a href="#">N° de Alunos</a></li>
+					</ul>	
+				</li>				
+				<li>
+					<a href="">Aluno</a>
+					<ul class="submenu2">
+						<li><a href="#">Cadastro</a></li>
+						<li><a href="#">Cursos</a></li>
+						<li><a href="#">Aulas</a></li>
+						<li><a href="#">Notas</a><li>
+					</ul>		
+				</li>
+					<li><a href="">Contato</a></li>
+					<li><a href="">Sobre</a></li>
+			</ul>
+					<ul>
+					<li><a href="">Cadastro</a></li>
+					</ul>
+		</div>
+			<div class="conteudo">
+				<h4><p>Escola de Desenvolvimento 
+				Em geral, seja um Desenvolvedor 
+				</p></h4>
+			</div>
+    	<main>
+	        <h1 class="mainh1"><a href="../1Pagweb/index.html">Login</a></h1>
+	        <form>
+	            <nav>
+                <div>
+                    <input type="text" nome="nome" required placeholder="Nome..." >
+                </div>
+                <div>
+                    <input type="text" sobrenome="sobrenome" placeholder= "Sobrenome..." required>
+                </div>    
+            </nav>
+            <nav>
+                <input type="username" type="email" name="username" id="username" placeholder="Usuário..." required>
+                <input type="email" name="email" id="email" placeholder="E-mail..." required>
+            </nav>
+            <img src="" width="65px" alt="">
+            <nav>
+                <div>
+                    <input type="password" name="password" id="password" placeholder="Senha..."  required>
+                    <input type="password" name="password" id="password" placeholder="Digite novamente..."  required>
+                </div>
+            </nav>
+            <div id="botao1">
+                <button id="botao" type="submit" onsubmit="">Cadastre-se</button>
+            </div>
+            <div id="link">
+                <a href="../Login/index.html">Login</a>
+           
+	        </form>	
+	        <form>	
+			<main>
+	        <h1 class="mainh1"><a href="../1Pagweb/index.html">Login</h1>
+	        <form>
+	            <div>
+	                <img id="usuario" width="50" src="" alt="usuario"><br>
+	                <input type="username" type="email" name="username" id="username" placeholder="Usuário..." required>
+	            </div>
+	            <div id="senha">
+	                <img id="cadeado" width="60" src="" alt="Senha"> <br>
+	                <input type="password" name="password" id="password" placeholder="Senha..."  required>
+	            </div>
+	        <div id="botao1">
+	            <button id="botao" type="submit" onsubmit="">Login</button>
+	            </form>
+	        </div>
+	        <div id="remenber">
+	        </div>
+	        <div id="link">
+	            <a href="../Cadastro/index.html">Cadastre-se</a> 
+	            <a href="#">Esqueci a senha</a>
+	        </div>
+	        </form>		
+	  </main> 
+ </body>
+</html>
